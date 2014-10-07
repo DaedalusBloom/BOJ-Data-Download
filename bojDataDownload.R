@@ -4,6 +4,8 @@
 getBOJdata = function(seriesCode,filename="bojData"){
 ##########
 # Set up
+if("XML" %in% rownames(installed.packages()) == FALSE) {install.packages("XML")}
+if("tis" %in% rownames(installed.packages()) == FALSE) {install.packages("tis")}
 library(XML)
 library(tis)
 
