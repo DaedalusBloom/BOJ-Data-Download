@@ -7,7 +7,7 @@ Currently just saves the data to the working directory as a csv, but you can mod
 
 Example:
 
-getBOJdata("FA%27FOF_FFAS121A100","CurrencyandDepositsAssets")
+getBOJdata("FF'FOF_FFAS121A100","CurrencyandDepositsAssets")
 
 Will download the BOJ Flow of Funds Data for bank currency and deposits to your working directory as
 "CurrencyandDepositsAssets.csv"
